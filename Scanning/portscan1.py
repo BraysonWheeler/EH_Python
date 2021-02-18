@@ -6,7 +6,7 @@
 
 import socket #library we want to import
 
-sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #AF_INET is for ipv4 and pv6 Sock Stream for tcp packets going for 3 way handshake
+sock = socket.socket_ex(socket.AF_INET, socket.SOCK_STREAM) #AF_INET is for ipv4 and pv6 Sock Stream for tcp packets going for 3 way handshake
 
 host = "192.168.1.52" #target pc
 port = 443 #can be any port nnmap -sV [ip] for open ports
