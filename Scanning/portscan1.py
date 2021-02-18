@@ -8,7 +8,7 @@ import socket #library we want to import
 
 sock = socket.socket_ex(socket.AF_INET, socket.SOCK_STREAM) #AF_INET is for ipv4 and pv6 Sock Stream for tcp packets
 
-host = "192.168.1.52" #target pc
+host = "[PUT TARGET IP HERE]" #target pc
 port = 443 #can be any port nnmap -sV [ip] for open ports
 
 #takes in argument port
