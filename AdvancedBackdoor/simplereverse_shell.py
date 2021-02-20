@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+
+#works with basic commands up to 1024 bytes will crash if exceeded
+
 #we have to create a socket from here then connect to our server in server.py
 import socket
 import subprocess
