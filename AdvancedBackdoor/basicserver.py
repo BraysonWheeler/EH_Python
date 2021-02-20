@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+#Basic server allowing local connection between two terminals
+
 import socket
 import os
 
