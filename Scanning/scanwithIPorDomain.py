@@ -26,7 +26,7 @@ def check_ip():
 def scan_port(ip, port):
     try:
         sock = socket.socket()
-        sock.settimeout(0.5) #dont need as scan is a Virtual Machine
+        sock.settimeout(0.5)
         sock.connect((ip, port))
         print('[+] Port' + str(port) + 'is open')
     except:
